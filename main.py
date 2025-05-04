@@ -2,7 +2,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 from collections import defaultdict
 
-# Replace with your actual Bot Token from BotFather
+# API token
 TOKEN = "7265202909:AAEcAR4H626LegzNjpoV9uJGs4y3Kpm2mQY"
 # In-memory storage for each user's missions
 user_tasks = defaultdict(list)
